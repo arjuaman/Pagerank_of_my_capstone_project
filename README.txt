@@ -1,3 +1,8 @@
+I worked on the data from: https://www.tdcj.texas.gov/death_row/dr_executed_offenders.html 
+My aim was to get a list of all the last statements by those who were executed and then make a WordCloud visualization of the most often words by them, WITHOUT using the wordcloud or NLP libraries.
+I put the conditions being that length of words should be greater than 5, other way could have been using wordcloud library and using the stopwords method from NLP library. 
+I started with spidering the data from the site,using and modifying the spider.py file from code3, used BeautifulSoup for the anchor tags ,and then again for the consequent paragraph tags, put them into a list and consequently wrote into a file. I imported that file in a datagram, cleaned it and exported it to statements.csv, which helped me in converting to sqlite. Then I modified gword.py file to get the visualization. 
+
 Simple Python Search Spider, Page Ranker, and Visualizer
 
 This is a set of programs that emulate some of the functions of a 
