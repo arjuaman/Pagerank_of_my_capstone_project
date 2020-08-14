@@ -1,3 +1,6 @@
+Representation: </br>
+![alt_text](https://github.com/arjuaman/Pagerank_of_my_capstone_project/blob/master/Capture2.jpg)
+
 I worked on the data from: https://www.tdcj.texas.gov/death_row/dr_executed_offenders.html 
 My aim was to get a list of all the last statements by those who were executed and then make a WordCloud visualization of the most often words by them, WITHOUT using the wordcloud or NLP libraries.
 I put the conditions being that length of words should be greater than 5, other way could have been using wordcloud library and using the stopwords method from NLP library. 
